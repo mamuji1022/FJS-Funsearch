@@ -21,8 +21,8 @@ from typing import Collection, Sequence, Type
 import numpy as np
 import time
 
-from funsearch.implementation import evaluator
-from funsearch.implementation import programs_database
+from implementation import evaluator
+from implementation import programs_database
 
 
 class LLM(ABC):
