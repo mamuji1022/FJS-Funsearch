@@ -19,8 +19,8 @@ from __future__ import annotations
 import dataclasses
 from typing import Type
 
-from funsearch.implementation import sampler
-from funsearch.implementation import evaluator
+from implementation import sampler
+from implementation import evaluator
 
 
 @dataclasses.dataclass(frozen=True)
