@@ -27,8 +27,8 @@ from absl import logging
 import numpy as np
 import scipy
 
-from funsearch.implementation import code_manipulation
-from funsearch.implementation import config as config_lib
+from implementation import code_manipulation
+from implementation import config as config_lib
 
 # RZ: I change the original code "tuple[float, ...]" to "Tuple[float, ...]"
 Signature = Tuple[float, ...]
