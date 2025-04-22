@@ -24,8 +24,8 @@ import copy
 from typing import Any, Type
 import profile
 
-from funsearch.implementation import code_manipulation
-from funsearch.implementation import programs_database
+from implementation import code_manipulation
+from implementation import programs_database
 
 
 class _FunctionLineVisitor(ast.NodeVisitor):
